@@ -5,17 +5,17 @@ const Navigation = () => {
     return (
         <section className="navigation">
             <div className="float">
-                <a className="link" href="#">
+                <a className="link" target="_blank" rel="noreferrer" href="#">
                     <img src="https://gobeyond.vercel.app/static/media/whatsapp.4a8733ff.svg" alt="whatsapp" className="icon" />
                     <span className="text">Whatsapp</span>
                 </a>
-                <a className="link" href="#">
-                    <img src="https://gobeyond.vercel.app/static/media/phone.4f06bac0.svg" alt="Phone" className="icon" />
-                    <span className="text">Phone</span>
+                <a className="link" target="_blank" rel="noreferrer" href="https://github.com/Antoniovsb25">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="github" className="icon" />
+                    <span className="text">GitHub</span>
                 </a>
-                <a className="link" href="#">
-                    <img src="https://gobeyond.vercel.app/static/media/email.7be6e02d.svg" alt="Email" className="icon" />
-                    <span className="text">Email</span>
+                <a className="link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/antonio-victor-basilio/">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-plain.svg" alt="linkedin" className="icon" />
+                    <span className="text">Linkedin</span>
                 </a>
             </div>
         </section>
