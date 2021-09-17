@@ -3,7 +3,6 @@ import './App.css'
 import Hero from './components/sections/Hero'
 import Navigation from './components/sections/Navigation'
 import Tabs from './components/sections/Tabs'
-import Posts from './components/sections/Posts'
 
 const App = () => {
     return (
@@ -11,7 +10,6 @@ const App = () => {
             <Hero />
             <Navigation />
             <Tabs />
-            <Posts />
         </main>
     )
 }

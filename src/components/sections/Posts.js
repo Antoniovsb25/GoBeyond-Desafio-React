@@ -3,11 +3,14 @@ import Post from "../posts/Post";
 import "./Posts.css";
 import DUMMY_DATA from "../../dummyData"
 
-const Posts = () => {
+const Posts = (props) => {
+    let button = props.number
+    let DUMMY_DATA_FILTERED = DUMMY_DATA.filter(element => element.address === button)
+    console.log(DUMMY_DATA_FILTERED)
   return (
     <section className="posts">
-      {DUMMY_DATA.map((element) => (
-        <Post key={element.id} id={element.id} image={element.image} title={element.title} />
+      {DUMMY_DATA_FILTERED.map((element) => (
+        <Post key={element.id} image={element.image} title={element.title} />
       ))}
     </section>
   );
