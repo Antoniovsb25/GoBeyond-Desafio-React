@@ -1,0 +1,14 @@
+.posts {
+  width: 100%;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px 0 110px;
+}
+
+@media (min-width: 1024px) {
+  .posts {
+    grid-template-columns: repeat(4, 1fr);
+    order: 3;
+  }
+}

@@ -1,0 +1,42 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
+
+.hero-background {
+    background-image: url(https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.picture {
+    margin-top: -70px;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    border: 5px solid #fff;
+}
+
+.name {
+    font-weight: 900;
+    font-size: 2rem;;
+}
+
+.description {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.349);
+}
+
+@media (min-width: 1024px) {
+    .hero-background {
+        height: 220px;
+    }
+}

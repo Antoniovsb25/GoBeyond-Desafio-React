@@ -1,0 +1,7 @@
+.tabs {
+    display: flex;
+    background: #e1e1e1;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
