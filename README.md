@@ -14,6 +14,6 @@ Utilize o comando `npm start` no terminal para abrir o projeto em [http://localh
 
 ## Link do deploy
 
-https://go-beyond-desafio-react-4ltq9s6jl-antoniovsb25.vercel.app/
+https://go-beyond-desafio-react.vercel.app/
 
 
