@@ -6,7 +6,7 @@ const Navigation = () => {
         <section className="navigation">
             <div className="float">
                 <a className="link" target="_blank" rel="noreferrer" href="https://wa.me/5521997768800">
-                    <img src="https://gobeyond.vercel.app/static/media/whatsapp.4a8733ff.svg" alt="whatsapp" className="icon" />
+                    <img src="https://img-premium.flaticon.com/png/512/739/premium/739247.png?token=exp=1631931429~hmac=8e1ea55d09a2c5afe022a5e72e860f4d" alt="whatsapp" className="icon" />
                     <span className="text">Whatsapp</span>
                 </a>
                 <a className="link" target="_blank" rel="noreferrer" href="https://github.com/Antoniovsb25">
