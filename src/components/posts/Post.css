@@ -1,45 +1,57 @@
 .post {
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  padding: 15px;
+  position: relative;
+  height: 160px;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  padding: 1px;
   border-radius: 10px;
   text-decoration: none;
+  max-width: 300px;
   transition: transform 0.2s ease-in-out;
   overflow: hidden;
   margin: 10px;
-  animation: fadeIn 1.5s;
+  animation: fadeIn 2s;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.678);
 }
 
 .post:hover {
   transform: translateY(-10px);
 }
 
-
 .image {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  max-width: 270px;
-  max-height: 182px;
+  max-width: auto;
+  max-height: 200px;
 }
 
 .title {
-  display: block;
+  position: absolute;
+  width: 100%;
   color: #fff;
   background-color: #000;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding: 5px 0;
+  padding: 5px 1px;
   z-index: 2;
   font-size: 16px;
   font-weight: 600;
-  max-width: 270px;
   text-align: center;
+  bottom: 0px;
 }
 
 @media (min-width: 1024px) {
   .post {
     height: 200px;
+  }
+  .image {
+      width: auto;
+      height: auto;
+  }
+  .title {
+      max-width: 350px;
   }
 }
 

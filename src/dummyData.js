@@ -8,16 +8,16 @@ const DUMMY_DATA = [
     },
     {
       id: 'm2',
-      title: 'Naruto',
+      title: 'Naruto Shippuden',
       image:
-        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgeneracionxbox.com%2Fwp-content%2Fuploads%2F2019%2F12%2Fnaruto-boruto-game-pass.jpg&f=1&nofb=1',
+        'https://static.pressakey.de/gfxgames/Naruto-Shippuden-Ultimate-Ninja-Storm-Legacy-4743-1599688030.jpg',
       address: 0,
     },
     {
         id: 'm3',
         title: 'Fullmetal Alchemist',
         image:
-          'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwallpapercave.com%2Fwp%2FKxmG4iQ.jpg&f=1&nofb=1',
+          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cultture.com%2Fpics%2F2019%2F06%2F10-animes-para-ver-si-te-gusta-el-alquimista-de-fullmetal-hermandad.jpg&f=1&nofb=1',
         address: 0,
       },
       {
@@ -45,14 +45,14 @@ const DUMMY_DATA = [
         id: 'm7',
         title: 'Legend of Zelda',
         image:
-          'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fnintendolatino.com%2Fwp-content%2Fuploads%2F2014%2F01%2FThe-Legend-of-Zelda-Ocarina-of-Time-3D.jpg&f=1&nofb=1',
+          'https://www.hdwallpaper.nu/wp-content/uploads/2018/06/the_legend_of_zelda_ocarina_of_time-14.jpg',
         address: 1,
       },
       {
         id: 'm8',
         title: 'Magic the gathering',
         image:
-          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fget.wallhere.com%2Fphoto%2Fspace-Magic-The-Gathering-Trading-Card-Games-number-screenshot-computer-wallpaper-outer-space-12217.jpg&f=1&nofb=1',
+          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdw9to29mmj727.cloudfront.net%2Fpromo%2F2016%2F5336-SeriesHeaders_Tier01_Magic_2000x800.jpg&f=1&nofb=1',
         address: 1,
       },
       {
@@ -66,7 +66,7 @@ const DUMMY_DATA = [
         id: 'm10',
         title: 'Japonês',
         image:
-          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ikoujapan.com.br%2Fwp-content%2Fuploads%2F2016%2F08%2FJapan-wallpaper-2.jpg&f=1&nofb=1',
+          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.vexels.com%2Fmedia%2Fusers%2F3%2F143508%2Fraw%2F1b68fd4add27d3c0d318680a0b0d0f9e-bandeira-artistica-do-japao.jpg&f=1&nofb=1',
         address: 2,
       },
   ];

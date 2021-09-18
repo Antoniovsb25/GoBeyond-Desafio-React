@@ -6,7 +6,6 @@ import DUMMY_DATA from "../../dummyData"
 const Posts = (props) => {
     let button = props.number
     let DUMMY_DATA_FILTERED = DUMMY_DATA.filter(element => element.address === button)
-    console.log(DUMMY_DATA_FILTERED)
   return (
     <section className="posts">
       {DUMMY_DATA_FILTERED.map((element) => (

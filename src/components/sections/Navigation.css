@@ -13,7 +13,7 @@
     background: #fff;
     padding: 10px;
     border-radius: 10px;
-    width: 100vw;
+    width: calc(100% - 60px);
 }
 
 .link {
@@ -22,6 +22,8 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    cursor: pointer;
+    width: 65px;
 }
 
 .icon {

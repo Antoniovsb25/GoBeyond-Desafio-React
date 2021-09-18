@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
         <section className="navigation">
             <div className="float">
-                <a className="link" target="_blank" rel="noreferrer" href="#">
+                <a className="link" target="_blank" rel="noreferrer" href="https://wa.me/5521997768800">
                     <img src="https://gobeyond.vercel.app/static/media/whatsapp.4a8733ff.svg" alt="whatsapp" className="icon" />
                     <span className="text">Whatsapp</span>
                 </a>

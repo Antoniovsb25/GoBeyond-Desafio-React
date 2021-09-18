@@ -11,9 +11,13 @@
     height: 150px;
     width: 100%;
     border-radius: 10px;
-    background-repeat: no-repeat;
-    background-position: 50%;
     background-size: cover;
+    background-position: 50%; 
+    background-repeat: no-repeat; 
+}
+
+div {
+    display: block;
 }
 
 .picture {
@@ -25,12 +29,14 @@
 }
 
 .name {
+    display: block;
     font-weight: 900;
     font-size: 2rem;
     text-align: center;
 }
 
 .description {
+    display: block;
     font-weight: 600;
     font-size: 1.5rem;
     color: rgba(0, 0, 0, 0.349);
