@@ -8,4 +8,8 @@ Para utilizar o projeto em sua máquina local, baixe os arquivos e digite `npm i
 
 Utilize o comando `npm start` no terminal para abrir o projeto em [http://localhost:3000](http://localhost:3000)
 
+## Link do deploy
+
+https://go-beyond-desafio-react-4ltq9s6jl-antoniovsb25.vercel.app/
+
 
