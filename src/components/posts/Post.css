@@ -1,6 +1,6 @@
 .post {
   position: relative;
-  height: 160px;
+  height: 170px;
   align-items: center;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -8,7 +8,7 @@
   padding: 1px;
   border-radius: 10px;
   text-decoration: none;
-  max-width: 300px;
+  max-width: 345px;
   transition: transform 0.2s ease-in-out;
   overflow: hidden;
   margin: 10px;
