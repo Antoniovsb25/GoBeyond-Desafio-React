@@ -10,7 +10,7 @@ const DUMMY_DATA = [
       id: 'm2',
       title: 'Naruto ナルト',
       image:
-        'https://static.pressakey.de/gfxgames/Naruto-Shippuden-Ultimate-Ninja-Storm-Legacy-4743-1599688030.jpg',
+        'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcriticalhits.com.br%2Fwp-content%2Fuploads%2F2020%2F04%2Fnaruto-sage-mode-01.jpg&f=1&nofb=1',
       address: 0,
     },
     {
@@ -24,7 +24,7 @@ const DUMMY_DATA = [
         id: 'm4',
         title: 'Demon Slayer　鬼滅の刃',
         image:
-          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.akibagamers.it%2Fwp-content%2Fuploads%2F2020%2F10%2Fdemon-slayer-blu-ray-cover.jpg&f=1&nofb=1',
+          'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.everyeye.it%2Fimg-notizie%2Fdemon-slayer-cresce-italia-anime-continua-scalare-top-10-netflix-v3-498068.jpg&f=1&nofb=1',
         address: 0,
       },
       {
